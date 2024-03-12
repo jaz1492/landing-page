@@ -73,6 +73,7 @@ body{
 }
 .information-header{
     font-size: 36px;
+    font-weight: 800;
     color: #1f2937;
     text-align: center;
 }
@@ -88,14 +89,33 @@ body{
     max-width: 200px;
     flex: 1 1 200px;
     margin: 0 5px;
-    
 }
 .information-description{
     font-size: 18px;
+}
+#quote{
+    height: 500px;
+    background-color: #E5E7EB;
+}
+.quote-container{
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+}
+.quote-container > h4{
+    text-align: right;
+}
+.quote-text{
+    padding-top: 12.5%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
 }
 .flex{
     display: flex;
 }
 footer{
     background-color: #1f2937;
+    height: 150px;
 }
