@@ -65,6 +65,25 @@ body{
     text-align: center;
     line-height: 250px;
 }
+#information{
+    width: 80%;
+    margin: 0 auto;
+}
+.information-header{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+.information-groups{
+    width: 80%;
+    margin: 0 auto;
+}
+.box{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
 .flex{
     display: flex;
 }
