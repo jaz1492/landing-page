@@ -92,6 +92,7 @@ body{
 }
 .information-description{
     font-size: 18px;
+    color: #1F2937;
 }
 #quote{
     height: 500px;
@@ -112,10 +113,41 @@ body{
     font-weight: 100;
     color: #1F2937;
 }
+#mail-sign-up{
+height: 200px;
+margin: 150px 0;
+background-color: #3882F6;
+}
+.sign-up-container{
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.sign-up-text{
+    color: #F9FAF8;
+    line-height: 10px;
+}
+.sign-up-text > p{
+    color: #E5E7EB;
+}
+.sign-up-button{
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    height: 35px;
+    min-width: 150px;
+    font-size: 18px;
+}
 .flex{
     display: flex;
 }
 footer{
     background-color: #1f2937;
-    height: 150px;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 50px 0;
 }
